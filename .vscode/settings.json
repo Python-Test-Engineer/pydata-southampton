@@ -157,4 +157,5 @@
    "python.testing.unittestEnabled": false,
    "python.testing.pytestEnabled": true,
    "notebook.output.lineHeight": 2,
+   "sarif-viewer.connectToGithubCodeScanning": "off",
 }
