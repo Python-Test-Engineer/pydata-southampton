@@ -1,0 +1,581 @@
+{
+  "dataset_info": {
+    "name": "Titanic Dataset - Processed",
+    "shape": [
+      778,
+      47
+    ],
+    "created_date": "2025-08-01T14:22:41.132989",
+    "total_features": 47,
+    "total_records": 778
+  },
+  "features": {
+    "survived": {
+      "data_type": "int64",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.41516709511568123,
+      "std": 0.4930678112685747,
+      "median": 0.0
+    },
+    "pclass": {
+      "data_type": "int64",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "min": 1.0,
+      "max": 3.0,
+      "mean": 2.2429305912596402,
+      "std": 0.8543070665930345,
+      "median": 3.0
+    },
+    "sex": {
+      "data_type": "object",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "male",
+      "sample_values": [
+        "male",
+        "female"
+      ]
+    },
+    "age": {
+      "data_type": "float64",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "min": -2.087132689199778,
+      "max": 3.6005029135456543,
+      "mean": 9.132940048330337e-17,
+      "std": 1.0006432937300893,
+      "median": -0.11597172006533471
+    },
+    "sibsp": {
+      "data_type": "int64",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "min": 0.0,
+      "max": 8.0,
+      "mean": 0.5269922879177378,
+      "std": 0.988956499280633,
+      "median": 0.0
+    },
+    "parch": {
+      "data_type": "int64",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "min": 0.0,
+      "max": 6.0,
+      "mean": 0.4190231362467866,
+      "std": 0.8393464835290282,
+      "median": 0.0
+    },
+    "fare": {
+      "data_type": "float64",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "min": -0.6677385994748607,
+      "max": 9.132927597810493,
+      "mean": -3.424852518123876e-18,
+      "std": 1.0006432937300893,
+      "median": -0.36070809552070404
+    },
+    "embarked": {
+      "data_type": "object",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 3,
+      "most_frequent": "S",
+      "sample_values": [
+        "S",
+        "C",
+        "Q"
+      ]
+    },
+    "class": {
+      "data_type": "category",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 3,
+      "most_frequent": "Third",
+      "sample_values": [
+        "Third",
+        "First",
+        "Second"
+      ]
+    },
+    "who": {
+      "data_type": "object",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 3,
+      "most_frequent": "man",
+      "sample_values": [
+        "man",
+        "woman",
+        "child"
+      ]
+    },
+    "adult_male": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "True",
+      "sample_values": [
+        true,
+        false
+      ]
+    },
+    "deck": {
+      "data_type": "category",
+      "non_null_count": 201,
+      "null_count": 577,
+      "null_percentage": 74.16,
+      "unique_values": 7,
+      "most_frequent": "C",
+      "sample_values": [
+        "C",
+        "E",
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    "embark_town": {
+      "data_type": "object",
+      "non_null_count": 776,
+      "null_count": 2,
+      "null_percentage": 0.26,
+      "unique_values": 3,
+      "most_frequent": "Southampton",
+      "sample_values": [
+        "Southampton",
+        "Cherbourg",
+        "Queenstown"
+      ]
+    },
+    "alive": {
+      "data_type": "object",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "no",
+      "sample_values": [
+        "no",
+        "yes"
+      ]
+    },
+    "alone": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "True",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "family_size": {
+      "data_type": "float64",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "min": -0.6223367722723301,
+      "max": 5.956168782454203,
+      "mean": -3.6531760193321344e-17,
+      "std": 1.000643293730089,
+      "median": -0.6223367722723301
+    },
+    "is_alone": {
+      "data_type": "int64",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.5655526992287918,
+      "std": 0.49600308819581285,
+      "median": 1.0
+    },
+    "age_group": {
+      "data_type": "category",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 5,
+      "most_frequent": "Adult",
+      "sample_values": [
+        "Adult",
+        "Middle_Age",
+        "Child",
+        "Teen",
+        "Senior"
+      ]
+    },
+    "fare_per_person": {
+      "data_type": "float64",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "min": -0.5642219844147939,
+      "max": 12.939158008378197,
+      "mean": -7.07802853745601e-17,
+      "std": 1.000643293730089,
+      "median": -0.3296460868554558
+    },
+    "title": {
+      "data_type": "object",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 3,
+      "most_frequent": "man",
+      "sample_values": [
+        "man",
+        "woman",
+        "child"
+      ]
+    },
+    "fare_bin": {
+      "data_type": "category",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 4,
+      "most_frequent": "Low",
+      "sample_values": [
+        "Low",
+        "Very_High",
+        "Medium",
+        "High"
+      ]
+    },
+    "sex_male": {
+      "data_type": "int64",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.6233933161953727,
+      "std": 0.48484661912162835,
+      "median": 1.0
+    },
+    "embarked_C": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "embarked_Q": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "embarked_S": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "True",
+      "sample_values": [
+        true,
+        false
+      ]
+    },
+    "pclass_1": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "pclass_2": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "pclass_3": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "True",
+      "sample_values": [
+        true,
+        false
+      ]
+    },
+    "age_group_Child": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "age_group_Teen": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "age_group_Adult": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "True",
+      "sample_values": [
+        true,
+        false
+      ]
+    },
+    "age_group_Middle_Age": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "age_group_Senior": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "title_child": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "title_man": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "True",
+      "sample_values": [
+        true,
+        false
+      ]
+    },
+    "title_woman": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "fare_bin_Low": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        true,
+        false
+      ]
+    },
+    "fare_bin_Medium": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "fare_bin_High": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "fare_bin_Very_High": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "deck_A": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "deck_B": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "deck_C": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "deck_D": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "deck_E": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "deck_F": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    },
+    "deck_G": {
+      "data_type": "bool",
+      "non_null_count": 778,
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_values": 2,
+      "most_frequent": "False",
+      "sample_values": [
+        false,
+        true
+      ]
+    }
+  }
+}
