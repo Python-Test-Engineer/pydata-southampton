@@ -4,7 +4,7 @@ This was developed by uisng `cline` and allowing it to create the app.
 It gets Claude 3.7 to clean a CSV dataset using custom instructions. This will be expensive in the real world, but is a demo of vibe coding as well as using the Anthropic API.
 
 Usage:
-    python 30_cline_csv_cleaner_agent.py --input 30_dirty_sales_data_10.csv --output 30.1_cleaned_sales_data_10.csv
+    python 30_cline_csv_cleaner_agent.py --input 30.1_dirty_sales_data_10.csv --output 30.3_cleaned_sales_data_10.csv
 
 Requirements:
     - anthropic
