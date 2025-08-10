@@ -211,7 +211,7 @@ High Temperature:
 The bag is filled with a mix of colors, and all colors are equally likely. High temperature means you're equally likely to pull any color, including the less common ones.
 # Use HTTP POST method
 response = requests.post(
-   url=model_endpoinLow Temperature:
+   url=model_endpoint, # The endpoint we are sending the request to. Low Temperature:
 The bag is full of mostly blue marbles, with a few red and green. Low temperature means you're very likely to pull a blue marble, but you might occasionally get a red or green.
 High Temperature:
 The bag is filled with a mix of colors, and all colors are equally likely. High temperature means you're equally likely to pull any color, including the less common ones.t, # The API
